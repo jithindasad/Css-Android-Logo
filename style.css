@@ -5,7 +5,6 @@ div div {background-color:  #A4CA39; position: relative;}
     margin: 100px auto;
     width: 404px;
     height: 340px;
-    background-color: red;
 }
 
 .head {
@@ -46,6 +45,7 @@ div div {background-color:  #A4CA39; position: relative;}
     position: relative;
     margin: 0 auto;
     top:15px;
+    border-radius: 0 0 35px 35px;
 }
 
 .l_arm, .r_arm {
@@ -60,3 +60,16 @@ div div {background-color:  #A4CA39; position: relative;}
 
 .r_arm { left: -40px;}
 .l_arm { right: -40px; }
+
+
+.l_leg, .r_leg {
+    width: 30px;
+    height: 70px;
+    
+    position: absolute;
+    top: 160px;
+    border-radius: 0 0 20px 20px;
+}
+
+.l_leg { left: 50px; }
+.r_leg { right: 50px; }
