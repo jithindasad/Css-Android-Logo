@@ -81,3 +81,7 @@ div div {background-color:  #A4CA39; position: relative;}
 .r_arm:hover {
     transform: rotate(15deg) translate(-14px, 0);
 }
+
+.head:hover {
+    transform: rotate(-15deg) translate(-13px, -27px);
+}
