@@ -28,3 +28,13 @@ div div {background-color:  #A4CA39; position: relative;}
 .r_eye { right:40px; }
 .l_eye { left: 40px; }
 
+.r_ant, .l_ant {
+    width: 5px;
+    height: 40px;
+    position: absolute;
+    border-radius: 5px;
+
+}
+
+.r_ant {right: 25px; transform: rotate(25deg);}
+.l_ant { left: 25px; transform: rotate(-25deg);}
