@@ -38,3 +38,25 @@ div div {background-color:  #A4CA39; position: relative;}
 
 .r_ant {right: 25px; transform: rotate(25deg);}
 .l_ant { left: 25px; transform: rotate(-25deg);}
+
+.body {
+    background-color: #A4CA39;
+    width: 200px;
+    height: 160px;
+    position: relative;
+    margin: 0 auto;
+    top:15px;
+}
+
+.l_arm, .r_arm {
+    width: 30px;
+    height: 130px;
+    
+    position: absolute;
+    border-radius: 20px;
+    top:10px;
+    
+}
+
+.r_arm { left: -40px;}
+.l_arm { right: -40px; }
